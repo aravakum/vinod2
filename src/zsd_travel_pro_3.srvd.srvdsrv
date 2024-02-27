@@ -1,0 +1,10 @@
+@EndUserText.label: 'Service definition for travel'
+define service ZSD_travel_pro_3 {
+  expose zvc_travel_pro_M_3      as Travel;
+  expose ZVC_BOOKING_PRO_M_3     as Booking;
+  expose ZVC_BOOKINGSUPP_PRO_M_3 as Bookingsupp;
+  expose ZI_agency_3             as Agency;
+  expose zi_customer_3           as Customer;
+  expose I_Currency              as Currency;
+  expose /DMO/I_Connection       as Connection;
+}
